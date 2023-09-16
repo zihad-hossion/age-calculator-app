@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- My customise stylesheet link here -->
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+</head>
+
+<body>
+  <section class="container">
+    <form class="form">
+      <div>
+        <label for="day">Day</label>
+        <input type="number" placeholder="DD" id="day" required>
+        <small></small>
+      </div>
+      <div>
+        <label for="month">Month</label>
+        <input type="number" placeholder="MM" id="month" required>
+        <small></small>
+      </div>
+      <div>
+        <label for="year">Year</label>
+        <input type="number" placeholder="YYYY" id="year" required>
+        <small></small>
+      </div>
+    </form>
+    <div class="btn-list">
+      <hr>
+      <button type="submit" class="imgArrow">
+        <img src="./images/icon-arrow.svg" alt="">
+      </button>
+    </div>
+    <div class="ageDate">
+      <p><span id="outYear">--</span> years</p>
+      <p><span id="outMonth">--</span> months</p>
+      <p><span id="outDay">--</span> days</p>
+    </div>
+  </section>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/zihad-hossion" target="_blank">Zihad Hossion</a>.
+  </footer>
+  <script src="./app.js"></script>
+</body>
+
+</html>
